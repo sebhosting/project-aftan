@@ -1,10 +1,65 @@
+# Node.js
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+build/
+dist/
+.cache/
+.out/
+.next/
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
 logs
 *.log
-dist/
-build/
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific
 .DS_Store
 Thumbs.db
-.env
+
+# Editor directories and files
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Models and large AI files
+models/
+*.bin
+*.gguf
+*.ggml
+*.pt
+*.safetensors
+*.ckpt
+*.tar.gz
+
+# Python cache (if any backend AI scripts)
+__pycache__/
+*.py[cod]
+*.so
+
+# Backend runtime artifacts
+*.sqlite3
+uploads/
+temp/
+tmp/
+
+# Local build/test artifacts
+frontend/build/
+backend/__pycache__/
+backend/.env
