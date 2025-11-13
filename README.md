@@ -1,17 +1,37 @@
 # Project Aftan 🚀💥
 
-Hey, welcome to **Project Aftan** — the chaotic, brilliant, supercharged playground where code meets genius.  
+Welcome to **Project Aftan** — the chaotic, brilliant, monetized playground for AI content generation.
 
-This project is **all about turning ideas into reality**. Expect insane amounts of energy, AI-powered automation, and a sprinkle of madness.  
-
-## Features (coming soon 😎)
-- ⚡ AI-driven content generation  
-- 🎨 Interactive frontend with React + Tailwind  
-- 🛠 Fully Dockerized backend & frontend  
-- 💰 Monetization-ready SaaS architecture  
+## Features
+- AI-powered content generation
+- React + Tailwind frontend
+- Node.js + Express backend
+- Dockerized for easy deployment
+- Monetization-ready SaaS architecture
 
 ## Getting Started
-Clone the repo:
 ```bash
 git clone https://github.com/sebhosting/project-aftan.git
 cd project-aftan
+```
+
+Install backend & frontend dependencies:
+```bash
+# Backend
+cd backend && npm install
+
+# Frontend
+cd ../frontend && npm install
+```
+
+Run locally:
+```bash
+# Backend
+npm start
+
+# Frontend
+npm start
+```
+
+## License
+MIT
